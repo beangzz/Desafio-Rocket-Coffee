@@ -17,10 +17,6 @@
 
 
   /* Header */
-  nav {
-    border-bottom: solid 1px #a8a8b383;
-  } 
-
   .nav-links {
     background-color: var(--backgrond);
     position: absolute;
