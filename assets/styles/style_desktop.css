@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --backgrond: #000;
+  --text-color: #FFF;
+  --button: #8257E5;
+  --border: #29292E;
+  --border-menu-mobile: #A8A8B3;
+  --text-color-menu-mobile: #E1E1E6;
+}
+
+body {
+  overflow-x: hidden;
+  overflow-y: hidden;
+  background: url(../img/blur-2.png) top right no-repeat, url(../img/blur-1.png) bottom left no-repeat, var(--backgrond);
+}
+
+
+/* Configuração para esconder itens mobile */
+.mobile-item {
+  display: none;
+}
+
+
+/* Header */
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2rem 0;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-around;
+  width: 40%;
+}
+
+.nav-links li {
+  list-style: none;
+}
+
+.nav-links a {
+  color: var(--text-color);
+  font-family: 'Manrope';
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+.botao-cafe {
+  background:transparent;
+  border: solid 1px var(--button);
+  border-radius: 6px;
+  color: var(--text-color);
+  font-family: 'Manrope';
+  font-weight: 800;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  padding: 1em 2em;
+}
+
+
+/* Main */
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.textos-code {
+  text-align: center;
+}
+
+.texto-coffee {
+  color: var(--text-color);
+  font-family: 'Manrope';
+  font-weight: 700;
+  font-size: 75px;
+  letter-spacing: -0.03em;
+}
+
+.texto-code{
+  font-family: 'Manrope';
+  font-weight: 700;
+  font-size: 75px;
+  letter-spacing: -0.03em;
+  text-shadow: -1px -1px 0 var(--button), 1px -1px 0 var(--button), -1px 1px 0 var(--button), 1px 1px 0 var(--button);
+}
+
+.imagem-principal {
+  bottom: 0;
+}
