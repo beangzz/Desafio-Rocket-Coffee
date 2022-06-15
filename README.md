@@ -40,7 +40,7 @@ O site conta com:
 
 ## :globe_with_meridians: Deploy
 
-Deploy feito através do Versel. Confira <a href="desafio-rocket-coffee-mpngeuxva-beangzz.vercel.app">neste link</a>.
+Deploy feito através do Versel. Confira <a href="https://desafio-rocket-coffee.vercel.app/">neste link</a>.
 
 
 ---
